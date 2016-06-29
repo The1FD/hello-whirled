@@ -1,0 +1,12 @@
+hello = true
+goodbye = false
+
+def whirl(greeting):
+  if greeting:
+    print "HELLO"
+    whirl(goodbye)
+  else:
+    print "WORLD"
+
+
+whirl(hello)
